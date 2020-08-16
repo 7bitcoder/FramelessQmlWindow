@@ -37,6 +37,16 @@ Window   {
         smooth: true
     }
 
+    Item {
+        anchors{
+            top: topBar.bottom
+            left: parent.left
+            right: parent.right
+            bottom: parent.bottom
+        }
+        /*Your content here*/
+    }
+
     ResizingFrames {
         anchors.fill: parent
         size: 3
